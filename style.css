@@ -1,0 +1,91 @@
+.card {
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 170px 0;
+    background: #19A1AE;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    color: #2E3349;
+    font-size: 18px;
+   
+}
+
+
+
+.card-bg-ellipse--1 {
+    position: absolute;
+    width: 978px;
+    height: 978px;
+    top: calc(-5% - 978px/2);
+    left: calc(15% - 978px/2);
+    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0%, #53FFEE 100%);
+    opacity: 0.5;
+    transform: rotate(-135deg);
+    border-radius: 50%;
+
+}
+
+.card-bg-ellipse--2 {
+    position: absolute;
+    width: 978px;
+    height: 978px;
+    right: calc(20% - 978px/2);
+    bottom: calc(-25% - 978px/2);
+    background: linear-gradient(180deg, rgba(9, 137, 180, 0.0001) 0%, #53FFEE 100%);
+    opacity: 0.25;
+    transform: rotate(45deg);
+    border-radius: 50%;
+
+}
+
+.card-content {
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.card-content__bg {
+    position: relative;
+   background-image: url(./card-id-bg.png);
+   height: 140px;
+    
+}
+
+.avatar {
+    position: absolute;
+    left: calc(50% - 96px/2 - 5px);
+    bottom: calc(0% - 96px/2);
+    width: 96px;
+    height: 96px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.card-content__info {
+    background: #fff;
+
+    padding: 70px;
+    text-align: center;
+}
+
+.name {
+}
+
+.age {
+    font-weight: 400;
+    color: #6B7082;
+    margin-left: 10px;
+}
+
+.city {
+    font-size: 14px;
+    color: #6B7082;
+    font-weight: 400;
+    margin-top: 15px;
+    display: inline-block;
+
+}
